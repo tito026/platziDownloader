@@ -62,7 +62,7 @@
                         <appendAssemblyId>false</appendAssemblyId>
                         <archive>
                             <manifest>
-                                <mainClass>org.brdn08.Main</mainClass>
+                                <mainClass>pruebas.Main</mainClass>
                             </manifest>
                         </archive>
                         <descriptorRefs>
