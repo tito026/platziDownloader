@@ -13,10 +13,9 @@ jobs:
       with:
         java-version: 17
     - name: Build and package with Maven
-      run: mvn package
-- name: Upload artifact
+      run: mvn package -DmainClass=pruebas.Main
+    - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: platzi_downloader-1.0-SNAPSHOT.jar
         path: target/platzi_downloader-1.0-SNAPSHOT.jar
--DmainClass=pruebas.Main
